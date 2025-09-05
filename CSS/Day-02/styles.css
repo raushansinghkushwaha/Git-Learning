@@ -1,0 +1,28 @@
+/* important rahega to sabse pahle ye kam karega */
+h1{
+    background-color:orangered !important;
+}
+h1{
+    background-color: rgb(218, 255, 205);
+}
+/* class */
+h1[draggable="true"]{
+    background-color: tomato;
+}
+/*   */
+.first_class{
+    background-color: blue;
+}
+/* Element tag */
+#first_id{
+    background-color: pink;
+}
+/* Attribute selector */
+body h1{
+    background-color: black;
+}
+/* Descendent */
+body > h1{
+    background-color: gray;
+}
+/* child */

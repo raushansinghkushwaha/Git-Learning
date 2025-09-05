@@ -1,0 +1,28 @@
+.container{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+.wrapper{
+    height: auto;
+    width: 50%;
+    /* margin:500px; */
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.header{
+    height:100px;
+    /* width: 50%; */
+     /* margin: 30px; */
+     justify-content: center;
+     text-align: center;
+}
+.para{
+    height: 100px;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}

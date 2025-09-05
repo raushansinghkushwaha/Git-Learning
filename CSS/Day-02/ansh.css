@@ -1,0 +1,23 @@
+h1{
+    background-color:green;
+    color:white
+}
+#first_id{
+    background-color: green;
+    color:yellow;
+}
+#second_id{
+    color: aqua;
+}
+#third_id{
+    color: violet;
+}
+#fourth_id{
+    color:orangered;
+}
+h3{
+    color: palevioletred;
+}
+#fifth_id{
+    color: black;
+}

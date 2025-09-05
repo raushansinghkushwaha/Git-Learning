@@ -1,0 +1,27 @@
+h1{
+    color:rgb(32, 43, 59);
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+}
+ /* pixel size is determine by your device size*/
+ /* em, relative to parent font size*/
+ /* rem, relative to html font size*/
+ /* relative to parent font size */
+*{
+    background-color: aquamarine;
+    /* background-image: url(./OIP\ \(1\).jpg);
+    background-size:cover ; */
+}
+/*name ke sath*/
+h2{
+    color:#2d34f4;
+}
+/*change by rgb*/
+/*0-255*/
+/*hexadecimal ko use karna*/
+/* # tag use, 6 character(0-f)*/
+
+h3{
+    color: hsl(40, 30%, 30%);
+}

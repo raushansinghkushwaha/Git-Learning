@@ -1,0 +1,13 @@
+.circle{
+    background-color: red;
+    border-radius: 50%;
+    height:60vh;
+    width:60vh;
+    margin-top:20vh;
+    margin:auto;
+}   
+*{
+    margin: 0;
+}
+
+/* how to center a div */

@@ -1,0 +1,10 @@
+/*universal selecter*/
+*{
+    background-color: red;
+}
+h1[draggable="true"]{
+    background-color: blueviolet;
+}
+section p{
+   background-color: yellowgreen;
+}

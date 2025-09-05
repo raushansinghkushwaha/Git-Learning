@@ -1,0 +1,36 @@
+.box{
+    display: inline-block;
+    height:150px;
+    width:150px;
+    
+}
+.container{
+    background-color: aqua;
+    margin-top:100px;
+    margin-left:100px;
+     
+}
+.Box1{
+    background-color: red;
+    position: relative;
+    left:250px;
+    z-index:7
+    
+}
+.Box2{
+    background-color: blue;
+    position: relative;
+    top:20px;
+    left:20px;
+    z-index: 2;
+     
+}
+/* default z-index wo hota nahi auto */
+.Box3{
+    background-color: green;
+    position:relative;
+    z-index:5;
+}
+.Box4{
+    background-color: pink;
+}

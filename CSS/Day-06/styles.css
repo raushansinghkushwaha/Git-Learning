@@ -1,0 +1,43 @@
+.container{
+    background-color:antiquewhite;
+    margin-left:200px;
+    margin-top:150px;
+    
+}
+.newcontainer{
+    height:600px;
+    background-color: black;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: palevioletred;
+    position: sticky;
+    bottom:30px;
+    right:30px;
+    top:20px;
+    
+
+}
+/* top bottom left right */
+/* static*/
+/*relative*/
+/*absolute*/
+/*fixed */
+/* sticky */
+/* homework sticky main top mention karna jaruri hai kaya
+agar mention na karu, to wo work nahi kar raha */
+.box3{
+    background-color: blueviolet;
+}
+.box4{
+    background-color: orange;
+}

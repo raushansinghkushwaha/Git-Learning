@@ -1,0 +1,9 @@
+/*select by class name*/
+.first{
+    background-color:blue;
+}
+/*select by id(unique)*/
+/* # ko use karna hai, then*/
+#third{
+    background-color: pink;
+}

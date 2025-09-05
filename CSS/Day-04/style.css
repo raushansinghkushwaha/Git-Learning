@@ -1,0 +1,33 @@
+.first{
+    /* display: inline; */
+    background-color: orange;
+    height:200px;
+    width:150px;
+    margin:40px;
+}
+.second{
+    /* display: inline; */
+    background-color: aquamarine;
+    height:200px;
+    width:250px;
+    margin:40px;
+}
+
+span{
+    display: inline-block;
+    background-color: green;
+    height:200px;
+    width:250px;
+    margin:50px;
+}
+/* block element 
+height, width, margin */
+
+/* inline element
+ height width nahi sde sakte
+ margin sirf horizontal hi milega
+  */
+
+  inline block 
+  /* element hga behave karega inline jaisa hi 
+  lekin usme height width laga sakte hai */

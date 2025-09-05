@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    
+}
+body{
+    background-color: rgb(238, 236, 234);
+}
+.image{
+    position: relative;
+    pointer-events:none;
+ }
+.card:hover{
+    background-color: white;
+    border-color:white;
+}
+.off{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(218,43,16,0.6);
+    left:5px;
+    bottom: 20px;
+    left: 10px;
+
+}
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top:10px;
+    cursor:pointer;
+    border:20px solid rgb(238, 236, 234);
+    border-radius: 20px;
+}
+.first{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.third{
+    height:500px;
+    background-color: grey;
+    
+}
+.dining{
+    margin-left: 200px;
+}
+.second{
+    padding-bottom:10px ;
+    position: sticky;
+    top:0px;
+    background-color: white;
+}
+.img3{
+    height: 70px;
+    width: 70px;
+}
+
+.dine , .delivery, .nighting{
+    position:relative ;
+    bottom: 22px;
+    left:5px;
+    font-size: 20px;
+    color: rgb(84, 80, 80);
+}
+.delivery{
+    margin-left:50px;
+    margin-right: 50px;
+   
+}
+
+.brand{
+    color:rgb(247, 11, 11);
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.searching{
+    height: 30px;
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 13px;
+}
+button{
+    height:50px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    font-size:15px;
+    margin-right:50px ;
+    background-color: white;
+    border: none;
+    color: rgb(223, 218, 218);
+}
+.head{
+    background-color: white;
+}
+
+
+.Box{
+    display: inline-block;
+}
+
+ .Resturant_name{
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .Resturant , .food ,.location{
+     position: relative;
+     margin-top:10px;
+     margin-bottom: 10px;
+ }
+ .rating{
+    background-color: green;
+    height:20px;
+    padding:3px;
+    position: absolute;
+    right:5px;
+    color:white;
+    border-radius: 8px;
+
+
+ }
+.price ,.Distance{
+    position:absolute;
+    right:5px;
+}
+.food ,.place{
+    font-size: 15px;
+    color: rgb(207, 204, 204);
+
+}
+.Distance{
+    font-size:10px;
+    font-weight:bold
+}
+
+ .gallery {
+      display: flex;
+      gap: 10px;            /* images ke beech space */
+      justify-content: center; /* center align (left/space-between bhi use kar sakte ho) */
+      align-items: center;
+      flex-wrap: nowrap;    /* agar chaho to wrap: wrap; rakhkar responsive bana sakte ho */
+      padding: 10px;
+    }
+
+    .gallery img {
+      width: calc((100% - 30px) / 4); /* 4 images ko equal width dene ke liye (gap adjust karo) */
+      max-width: 200px;                /* optional max size */
+      height: auto;
+      display: block;
+      object-fit: cover;               /* agar image ka aspect alag ho toh crop jaisa dikhayega */
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    }
+    .img5{
+        height:500px;
+        width:500px;
+    }
+
+    /* chhote screens ke liye (responsive) — agar screen chhoti ho toh images wrap ho jayengi */
+    @media (max-width: 600px) {
+      .gallery {
+        flex-wrap: wrap;
+      }
+      .gallery img {
+        width: calc(50% - 10px); /* 2 per row on small screens */
+        max-width: none;
+      }
+    }

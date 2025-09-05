@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+/* Base flag */
+.first {
+    position: relative;
+    width: 500px;  /* Flag width */
+    height: 300px; /* Flag height */
+    background-color: #c60c30; /* Red background */
+}
+
+/* Vertical part of cross */
+.second {
+    position: absolute;
+    top: 0;
+    left: 100px; /* Position of vertical cross */
+    width: 40px;
+    height: 100%;
+    background-color: white;
+}
+
+/* Horizontal part of cross */
+.third {
+    position: absolute;
+    top: 100px; /* Position of horizontal cross */
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+
+/* Optional: fourth div not needed, but you can use it for overlay if you want */
+.fourth {
+    display: none;
+}
